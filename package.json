@@ -1,14 +1,22 @@
 {
-  "name": "ani_test",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "devDependencies": {
-    "vite": "^8.3.6"
-  }
+	"name": "aniworld",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@tailwindcss/vite": "^4.3.2",
+		"@vitejs/plugin-react": "^6.3.0",
+		"tailwindcss": "^4.3.2",
+		"vite": "^8.1.1"
+	},
+	"dependencies": {
+		"react": "^19.3.1",
+		"react-dom": "^19.3.1",
+		"react-router-dom": "^7.18.1"
+	}
 }
